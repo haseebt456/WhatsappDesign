@@ -71,8 +71,16 @@ export default function ChatList() {
 
 const styles = StyleSheet.create({
   container: {},
-  headerContainer: {},
-  headertext: {},
+  headerContainer: {
+    padding: 10,
+    marginBottom: 2,
+  },
+  headertext: {
+    fontSize:26,
+    fontWeight: 'bold',
+    fontFamily: 'Helvetica',
+    color:'#55d455'
+  },
   searchBar: {
     backgroundColor: '#DAE0E2',
     height:50,
