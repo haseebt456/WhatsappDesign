@@ -59,6 +59,11 @@ export default function ChatList() {
       name: 'Ammman',
       imageUrl: 'https://scontent.flhe3-1.fna.fbcdn.net/v/t39.30808-1/415050440_1437020210529952_2162164483549871623_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeGix5uhZD1E4d4rfpewDIqZ4gWlcpLPGKTiBaVyks8YpBaBJ7N8WnPsbXZ5mDKGinxbYGM-pDF2FsxF7If6ajW7&_nc_ohc=jzWBKB8fLpIQ7kNvgHgIXfR&_nc_ht=scontent.flhe3-1.fna&gid=A-2Fr_WkY0YEVm1q3BMmvp2&oh=00_AYAyWhXAdXK6HMKPlzZtSrerZSbgno1FSLcvFymvOnPudw&oe=66AC0AD1'
     },
+    {
+      uid: 11,
+      name: 'Haris CR',
+      imageUrl: 'https://scontent.flhe3-2.fna.fbcdn.net/v/t39.30808-1/318508411_3229307597319514_8718869230094480842_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeEM47z74zPQT_zzviUUul7v9R5fzjJxkEf1Hl_OMnGQRyWD--idUS637tkAyX5r_2KnVtSgAmByHD9JI6mcDrkE&_nc_ohc=4ahl_mUWXOAQ7kNvgEYjVxW&_nc_ht=scontent.flhe3-2.fna&oh=00_AYAwHQTcCcnSg1pI9zpT8-9w_ZJoWQuTBq5go1Bh0MSizw&oe=66ABF499'
+    },
   ]
   return (
     <View>
@@ -68,7 +73,6 @@ export default function ChatList() {
         <View style={styles.searchBar}></View>
         <ScrollView
         style={styles.container}
-        scrollEnabled={false}
         >{contacts.map(({uid,name,status,imageUrl})=>(
           <View key={uid} style={styles.userCard}>
             <Image
