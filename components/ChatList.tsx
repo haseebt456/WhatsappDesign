@@ -99,6 +99,12 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     marginHorizontal:5
   },
-  userName: {},
-  userStatus: {},
+  userName: {
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  userStatus: {
+    fontSize: 14,
+    fontWeight:'400'
+  },
 })
