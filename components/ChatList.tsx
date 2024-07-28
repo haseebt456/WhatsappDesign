@@ -53,7 +53,7 @@ export default function ChatList() {
           <View key={uid} style={styles.userCard}>
             <Image
             source={{
-              uri:imageUrl
+              uri: imageUrl
             }}
             style={styles.userImage}
             ></Image>
@@ -69,7 +69,13 @@ const styles = StyleSheet.create({
   container: {},
   headerContainer: {},
   headertext: {},
-  searchBar: {},
+  searchBar: {
+    backgroundColor: '#DAE0E2',
+    height:50,
+    width: 330,
+    borderRadius:25,
+    marginLeft: 12
+  },
   userCard:{
     height: 100,
     width:100
