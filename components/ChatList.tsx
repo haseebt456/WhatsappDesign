@@ -57,6 +57,10 @@ export default function ChatList() {
             }}
             style={styles.userImage}
             ></Image>
+            <View>
+              <Text style={styles.userName}>{name}</Text>
+              <Text style={styles.userStatus}>{status}</Text>
+            </View>
           </View>
         ))}
 
@@ -84,4 +88,6 @@ const styles = StyleSheet.create({
     height:200,
     width: 200
   },
+  userName: {},
+  userStatus: {},
 })
