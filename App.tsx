@@ -1,11 +1,13 @@
-import { View, Text } from 'react-native'
+import { View, Text,ScrollView, SafeAreaView } from 'react-native'
 import React from 'react'
-
+import ChatList from './components/ChatList'
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView>
+      <ScrollView>
+        <ChatList/>
+      </ScrollView>
+    </SafeAreaView>
   )
 }
 
