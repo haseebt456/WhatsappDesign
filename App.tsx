@@ -4,9 +4,7 @@ import ChatList from './components/ChatList'
 const App = () => {
   return (
     <SafeAreaView>
-      <ScrollView>
         <ChatList/>
-      </ScrollView>
     </SafeAreaView>
   )
 }
