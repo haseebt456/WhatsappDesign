@@ -115,7 +115,12 @@ const styles = StyleSheet.create({
   userCard:{
     flex: 1,
     flexDirection:'row',
-    padding: 8
+    padding: 8,
+    backgroundColor: '#f1f7ed',
+    borderRadius: 30,
+    height: 70,
+    width: 350,
+    marginVertical: 4
   },
   userImage: {
     height:50,
