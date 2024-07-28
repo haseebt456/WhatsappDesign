@@ -39,6 +39,26 @@ export default function ChatList() {
       name: 'Zuraiz',
       imageUrl: 'https://scontent.flhe3-2.fna.fbcdn.net/v/t1.6435-1/175940659_1424329514586811_5616063352471231859_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=db5862&_nc_eui2=AeEQv0bvp6BLLLXajOiS5H3U92Rq9A8bc4j3ZGr0DxtziBVuXGeRqpp5QXn6ZQdMvzjBiVPTK5tdgmLEO3r2pZVr&_nc_ohc=Mgje9RWmspUQ7kNvgFcm0xH&_nc_ht=scontent.flhe3-2.fna&oh=00_AYBYVVVU-rXn2-KrVqt2aozlIDcfPbxw9fVhW4MD4AkmoA&oe=66CDAA1A'
     },
+    {
+      uid: 7,
+      name: 'Haris',
+      imageUrl: 'https://scontent.flhe3-2.fna.fbcdn.net/v/t39.30808-1/447609667_761623942849969_1390002404402905528_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeEVzBFhJpAxus0Nhu9jMvyJZops8fmo_9pmimzx-aj_2jJ2YjRKkeknKQm3_n7v5eEazSQHKV95FwjeDAAevuzu&_nc_ohc=IoFLrI8nG3IQ7kNvgH9o9Yw&_nc_ht=scontent.flhe3-2.fna&oh=00_AYBr_tKcHlkVlz37cH3wXgORtIEiJGQzwD8CsbOaQsRmGA&oe=66ABFA4D'
+    },
+    {
+      uid: 8,
+      name: 'Rana Sohail',
+      imageUrl: 'https://scontent.flhe3-1.fna.fbcdn.net/v/t39.30808-1/419788182_1552059035609389_2679249666236939729_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeFH-XUIq01d4jOGaENFOxyAohfL82kkf7iiF8vzaSR_uL1YmgGvjMQT1c3Kd1mKWBtkwsV45lzH3gQJ9SXyFQC_&_nc_ohc=maBzWft4gd4Q7kNvgEOgjSS&_nc_ht=scontent.flhe3-1.fna&oh=00_AYDev9XC0F1U3MGTF4jqylva1Hm2y5wqoUo4ypx0RWcG4A&oe=66AC1425'
+    },
+    {
+      uid: 9,
+      name: 'Saud',
+      imageUrl: 'https://scontent.flhe3-1.fna.fbcdn.net/v/t39.30808-1/420177633_1448304392759080_7270916709771888324_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeH0O3216wAXskImbAmMwdwHiZHdzwdkCJ2Jkd3PB2QIncQ-Yk0ccuk1Jrdg1x_yDQQLsdzurjDIZl_HH3PpRvvl&_nc_ohc=dMnFBLZBypkQ7kNvgEgP-_y&_nc_ht=scontent.flhe3-1.fna&oh=00_AYD-dmyPGoFaNpXWen-8Gu7oIvzjhBSJtaFUh7YXg1P9oQ&oe=66AC21F8'
+    },
+    {
+      uid: 10,
+      name: 'Ammman',
+      imageUrl: 'https://scontent.flhe3-1.fna.fbcdn.net/v/t39.30808-1/415050440_1437020210529952_2162164483549871623_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeGix5uhZD1E4d4rfpewDIqZ4gWlcpLPGKTiBaVyks8YpBaBJ7N8WnPsbXZ5mDKGinxbYGM-pDF2FsxF7If6ajW7&_nc_ohc=jzWBKB8fLpIQ7kNvgHgIXfR&_nc_ht=scontent.flhe3-1.fna&gid=A-2Fr_WkY0YEVm1q3BMmvp2&oh=00_AYAyWhXAdXK6HMKPlzZtSrerZSbgno1FSLcvFymvOnPudw&oe=66AC0AD1'
+    },
   ]
   return (
     <View>
