@@ -82,19 +82,22 @@ const styles = StyleSheet.create({
     color:'#55d455'
   },
   searchBar: {
-    backgroundColor: '#DAE0E2',
+    backgroundColor: '#e6ebe6',
     height:50,
     width: 330,
     borderRadius:25,
     marginLeft: 12
   },
   userCard:{
-    height: 100,
-    width:100
+    flex: 1,
+    flexDirection:'row',
+    padding: 8
   },
   userImage: {
-    height:200,
-    width: 200
+    height:50,
+    width: 50,
+    borderRadius: 30,
+    marginHorizontal:5
   },
   userName: {},
   userStatus: {},
